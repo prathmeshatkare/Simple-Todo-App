@@ -1,0 +1,72 @@
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #0E0E10;
+    color: #E6E5E5;
+    
+}
+
+/* Parent Container box */
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+}
+
+/* Child Container for input and button */
+.child_container{
+    width:400px;
+    padding: 8px 16px;
+    margin-top: 14px;
+    border: 1px solid #e5e7eb;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Input box styling */
+#input-box{
+    width: 250px;
+    height:30px;
+    padding-left: 20px;
+    border-radius: 6px;
+    border: none;
+}
+
+#write-todo:active{
+    border: 1px solid #e5e7eb;
+}
+
+/* Button styling */
+#addTodo-btn{
+    padding: 8px 16px 8px 16px;
+    background-color: rgb(230, 230, 230);
+    border-radius: 6px;
+    border: none;
+    color: #0E0E10;
+    cursor: pointer; /* Indicate it's clickable */
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+
+}
+
+ul li{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    margin:5px 468px 5px 458px ;
+    padding: 8px 16px 8px 16px;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+
+ul li button{
+    color: #E6E5E5;
+    border: none;
+    cursor: pointer;
+}
